@@ -1,3 +1,19 @@
 .test {
     color: green;
 }
+
+.normal {
+    background-color: green;
+}
+
+.float {
+    background-color: yellow;
+    position: fixed;
+    opacity: 0.5;
+    top: 0;
+    transition: opacity .14s ease-in-out,visibility 0s 0s linear,top .14s ease-in-out;
+}
+
+body {
+    height: 3000px;
+}
