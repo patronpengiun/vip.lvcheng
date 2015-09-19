@@ -1,0 +1,37 @@
+.section1 {
+	background-image: url("../resource/index1.jpg");
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	height: 800px;
+}
+
+.header {
+	width: 700px;
+}
+
+.headerNav a {
+	font-size: 16px;
+	font-weight: 600;
+	color: #fff;
+	font-style: normal;
+	text-decoration: none;
+	font-family: "freight-sans-pro";
+	line-height: 1em;
+
+	margin-left: 25px;
+	margin-right: 25px;
+}
+
+.headerNav a img {
+	width: 60px;
+	height: 105px;
+	margin-top: 50px;
+}
+
+
+.section2 img{
+	position: relative;
+	left: 50%;
+	margin-left: -375px;
+	
+}
