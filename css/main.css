@@ -13,6 +13,7 @@ body {
 	position: relative;
 	left: 50%;
 	margin-left: -320px;
+	top: 20px;
 }
 
 .headerNav a {
@@ -26,7 +27,6 @@ body {
 
 	margin-left: 25px;
 	margin-right: 25px;
-	padding-top: 0;
 }
 
 .headerNav a img {
@@ -36,7 +36,6 @@ body {
 
 .headerNav #logo {
 	position: relative;
-	top: 40px;
 }
 
 .slogan img {
