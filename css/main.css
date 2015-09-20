@@ -1,3 +1,6 @@
+body {
+	margin: 0;
+}
 .section1 {
 	background-image: url("../resource/index1.jpg");
 	background-size: 100% auto;
@@ -6,7 +9,10 @@
 }
 
 .header {
-	width: 700px;
+	width: 620px;
+	position: relative;
+	left: 50%;
+	margin-left: -320px;
 }
 
 .headerNav a {
@@ -20,14 +26,27 @@
 
 	margin-left: 25px;
 	margin-right: 25px;
+	padding-top: 0;
 }
 
 .headerNav a img {
 	width: 60px;
 	height: 105px;
-	margin-top: 50px;
 }
 
+.headerNav #logo {
+	position: relative;
+	top: 40px;
+}
+
+.slogan img {
+	position: relative;
+	width: 140px;
+	height: 443px;
+	left: 50%;
+	margin-top: 88px;
+	margin-left: -65px;
+}
 
 .section2 img{
 	position: relative;
