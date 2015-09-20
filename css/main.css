@@ -52,5 +52,24 @@ body {
 	position: relative;
 	left: 50%;
 	margin-left: -375px;
-	
+}
+
+.p1 {
+	font-size: 42px;
+	line-height: 1.2em;
+	font-weight: 600;
+	font-style: normal;
+	text-align: center;
+	color: #093a3f;
+}
+
+.p2 {
+	position: relative;
+	left: 50%;
+	margin-left: -328px;
+	width: 656px;
+	text-align: center;
+	line-height: 1.6em;
+	color: rgba(0,0,0,.6);
+	font-weight: normal;
 }
