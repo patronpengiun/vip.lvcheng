@@ -48,7 +48,7 @@ body {
 	margin-left: -65px;
 }
 
-.section2 img{
+.section2 img {
 	position: relative;
 	left: 50%;
 	margin-left: -375px;
@@ -72,4 +72,12 @@ body {
 	line-height: 1.6em;
 	color: rgba(0,0,0,.6);
 	font-weight: normal;
+}
+
+.section3 {
+	margin-top: 150px;
+}
+
+.section4 img {
+	width: 100%;
 }
