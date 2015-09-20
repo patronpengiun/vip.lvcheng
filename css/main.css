@@ -10,7 +10,11 @@ body {
 }
 
 .header {
-	width: 700px;
+	width: 620px;
+	position: relative;
+	left: 50%;
+	margin-left: -320px;
+	top: 20px;
 }
 
 .headerNav a {
@@ -29,14 +33,26 @@ body {
 .headerNav a img {
 	width: 60px;
 	height: 105px;
-	margin-top: 50px;
 }
 
+.headerNav #logo {
+	position: relative;
+}
 
-.section2 img{
+.slogan img {
+	position: relative;
+	width: 140px;
+	height: 443px;
+	left: 50%;
+	margin-top: 88px;
+	margin-left: -65px;
+}
+
+.section2 img {
 	position: relative;
 	left: 50%;
 	margin-left: -375px;
+<<<<<<< HEAD
 	
 }
 
@@ -136,24 +152,34 @@ body {
     margin-top: 50px;
 }
 
+.p1 {
+	font-size: 42px;
+	line-height: 1.2em;
+	font-weight: 600;
+	font-style: normal;
+	text-align: center;
+	color: #093a3f;
+}
 
+.p2 {
+	position: relative;
+	left: 50%;
+	margin-left: -328px;
+	width: 656px;
+	text-align: center;
+	line-height: 1.6em;
+	color: rgba(0,0,0,.6);
+	font-weight: normal;
+}
 
+.section3 {
+	margin-top: 70px;
+}
 
+.item img{
+	width: 100%;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.section4 img {
+	width: 100%;
+}
