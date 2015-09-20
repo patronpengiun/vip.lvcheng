@@ -78,6 +78,10 @@ body {
 	margin-top: 150px;
 }
 
+.item img{
+	width: 100%;
+}
+
 .section4 img {
 	width: 100%;
 }
