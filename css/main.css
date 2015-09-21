@@ -2,6 +2,31 @@ body {
     margin: 0;
 }
 
+.float-nav {
+    position: fixed;
+    top: 0;
+    padding: 5px 0;
+    background-color: #093a3f;
+    width: 100%;
+    text-align: center;
+    z-index: 1000;
+}
+
+.float-nav .cell {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+}
+
+.float-nav .cell a {
+    padding: 12px 16px;
+    font-size: 16px;
+    text-decoration: none;
+    color: #fff;
+    line-height: 1em;
+    display: block;
+}
+
 .section1 {
 	background-image: url("../resource/index1.jpg");
 	background-size: 100% auto;
@@ -28,6 +53,11 @@ body {
 
 	margin-left: 25px;
 	margin-right: 25px;
+}
+
+.headerNav a:hover {
+    text-decoration: none;
+    color: #fff;
 }
 
 .headerNav a img {
