@@ -219,6 +219,63 @@ body {
 	width: 100%;
 }
 
+.contentBlock {
+	height: 300px;
+	width: 100%;
+}
+
+.parachute {
+	background: url("../resource/ex-jump5.jpg");
+	background-size: 100%;
+}
+
+.dive {
+	background: url("../resource/ex-dive2.jpg");
+	background-size: 100%;
+}
+
+.helicopt {
+	background: url("../resource/ex-heli.jpg");
+	background-size: 100%;
+}
+
+.activity {
+	position: relative;
+	top: 50%;
+	transform: translateY(-30%);
+	width: 900px;
+	left: 50%;
+	margin-left: -450px;
+}
+
+.activity span {
+	color: #fff;
+	font-size: 53px;
+}
+
+.activity button {
+	margin-left: 500px;
+	color: #fff;
+	border-color: #fff;
+	border-radius: 3px;
+	border-width: 2px;
+	padding: 13px 26px;
+	font-size: 12px;
+	letter-spacing: 2px;
+	font-weight: 600;
+	border-style: solid;
+	background: transparent;
+}
+
+.activity button:hover {
+	background: #fff;
+	color: #000;
+}
+
+.section6 img {
+	width: 100%;
+}
+
 .journey {
     position: relative;
     overflow: hidden;
@@ -294,34 +351,3 @@ body {
   width: 130px;
   height: 130px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
