@@ -154,7 +154,8 @@ body {
     vertical-align: top;
     text-align: center;
     display: inline-block;
-    margin-left: 25%;
+    margin-left: 18%;
+    width: 20%;
 }
 .qf-container {
     padding: 23px 17px 17px 17px;
@@ -166,7 +167,8 @@ body {
 
 .contact {
     display: inline-block;
-    margin-left: 18%;
+    margin-left: 12%;
+    width: 45%;
 }
 
 .social img {
@@ -347,18 +349,22 @@ body {
   height: 100%;
 }
 
-.float-qr .text-content {
-  color: white;
-  position: absolute;
-  font-size: 20px;
-  padding: 40px 60px;
+.float-qr .scan {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.float-qr .scan img {
+  height: 60px;
+  margin-top: 28px;
+  margin-left: 50px;
 }
 
 .float-qr .img-wrapper {
-  position: absolute;
   display: inline-block;
-  right: 150px;
-  bottom: 0;
+  position: relative;
+  left: 20px;
+  bottom: 50px;
   padding: 20px;
   background-color: rgba(0,0,0,0.8);
 }
@@ -366,4 +372,31 @@ body {
 .float-qr .img-wrapper img {
   width: 130px;
   height: 130px;
+}
+
+.float-qr .close {
+  position: absolute;
+  right: 30px;
+}
+
+.float-qr .close img {
+  width: 60px;
+  height: 60px;
+  vertical-align: middle;
+  margin-top: 30px;
+}
+
+.float-main-content {
+  position: absolute;
+  left: 5%;
+}
+
+.float-qr-slogan {
+  position: absolute;
+  right: 10%;
+}
+
+.float-qr-slogan img {
+  height: 75px;
+  margin-top: 26px;
 }

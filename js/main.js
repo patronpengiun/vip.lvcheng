@@ -7,3 +7,9 @@ $(window).scroll(
         }
     }
 );
+
+$(document).ready(function() {
+  $('.float-qr .close').click(function() {
+    $('.float-qr').hide();
+  })
+});
